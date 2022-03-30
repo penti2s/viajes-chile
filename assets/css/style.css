@@ -9,3 +9,31 @@ body {
 .navbar-style a {
     color: #fff !important;
 }
+
+.span5 {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.bg-icon {
+    background-color: rgb(0, 225, 255);
+    text-align: center;
+}
+
+.fa-solid {
+    color: #fff;
+}
+
+.descripcion {
+    color: #fff;
+}
+
+.card img {
+    height: 200px;
+}
+.card-body {
+    background-color: aqua;
+    height: 10em;
+    
+}
