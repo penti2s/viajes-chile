@@ -2,6 +2,12 @@
     "folders": [
         {
             "path": "."
+        },
+        {
+            "path": "..\\..\\Semana 3 Js\\Dia 2\\Ricomida"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "PruebaViajeAChile"
+    }
 }

@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(158, 104, 104);
+}
+
+.navbar-style {
+    color: #fff;
+}
+
+.navbar-style a {
+    color: #fff !important;
+}
