@@ -10,8 +10,8 @@
     <script src="https://kit.fontawesome.com/e9a9ef07fa.js" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -65,17 +65,17 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul class="navbar-nav">
-                                <li class="nav-item mx-3">
+                                <li class="nav-item ">
                                     <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                                </li> 
-                                <li class="nav-item mx-1">
-                                    <a class="nav-link" href="#">Quienes Somos</a>
                                 </li>
-                                <li class="nav-item mx-1">
-                                    <a class="nav-link" href="#">Destacados</a>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#quienesomos">Quienes Somos</a>
                                 </li>
-                                <li class="nav-item mx-1">
-                                    <a class="nav-link" href="#">Contacto</a>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#detacados">Destacados</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#contacto">Contacto</a>
                                 </li>
                             </ul>
                         </div>
@@ -85,10 +85,10 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row justify-content-center">
+    <div id="#" class="container">
+        <div class="row justify-content-center d-none d-md-flex">
             <div class="col-12">
-                <h3 class="mt-4" style="text-align: center; color: #fff;">¿QUIENES SOMOS?</h3>
+                <h3 id="quienesomos" class="mt-4" style="text-align: center; color: #fff;">¿QUIENES SOMOS?</h3>
                 <div class="span5 mt-3 mb-4 mx-auto" style="width: 80%;"></div>
             </div>
 
@@ -133,9 +133,11 @@
                         hic quaerat autem odio obcaecati? Quibusdam, neque.</p>
                 </div>
             </div>
+        </div>
+        <div class="row">
 
             <div class="col-12">
-                <h3 class="mt-4" style="text-align: center; color: #fff;">DESTACADOS</h3>
+                <h3 id="detacados" class="mt-4" style="text-align: center; color: #fff;">DESTACADOS</h3>
                 <div class="span5 mt-3 mb-4 mx-auto" style="width: 100%;"></div>
             </div>
             <div class="container mb-5">
@@ -188,11 +190,12 @@
             </div>
         </div>
     </div>
+    </div>
 
     <div class="container-flux">
         <div class="row">
             <div class="col-12">
-                <h3 class="mt-4" style="text-align: center; color: #fff;">CONTACTO</h3>
+                <h3 id="contacto" class="mt-4" style="text-align: center; color: #fff;">CONTACTO</h3>
                 <div class="span5 mt-3 mb-4 mx-auto" style="width: 80%;"></div>
             </div>
         </div>
@@ -213,7 +216,8 @@
                             <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                         </div>
-                        <button type="submit"  class="btn btn-primary bg-icon" data-bs-toggle="tooltip" data-bs-placement="right" title="Enviar Formulario de contacto">Enviar</button>
+                        <button type="submit" class="btn btn-primary bg-icon" data-bs-toggle="tooltip"
+                            data-bs-placement="right" title="Enviar Formulario de contacto">Enviar</button>
                     </form>
                 </div>
             </div>
